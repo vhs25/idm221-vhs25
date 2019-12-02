@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'SansBold';
+    src: url('../../Fonts/SansSerif/_sansserifbldflf-webfont.woff') format('woff');
+    src: url('../../Fonts/SansSerif/_sansserifbldflf-webfont.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'SansBook';
+    src: url('../../Fonts/SansSerif/_sansserifbookflf-webfont.woff') format('woff');
+    src: url('../../Fonts/SansSerif/_sansserifbookflf-webfont.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'SansDemiBold';
+    src: url('../../Fonts/SansSerif/_sansserifflf-demibold-webfont.woff') format('woff');
+    src: url('../../Fonts/SansSerif/_sansserifflf-demibold-webfont.woff2') format('woff2');
+}
+
+*{
+    font-size: 100%;
+}
+
+body{
+    margin: 0;
+}
+
+header{
+    color: #b378b4;
+    font-family: 'SansDemiBold','Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    margin: 1rem .5rem .5rem;
+}
+
+header.main{
+    font-size: 1.75rem;
+    margin: 2rem .5rem 0rem;
+}
+
+.content{
+    font-family: 'SansBook', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+    margin: 0 .8rem;
+}
+
+p{
+    margin: 1rem 1rem;
+}
+
+.img1{
+    margin: .1rem;
+}
+
+.img2{
+    margin: .1rem;
+}
+
+.img3{
+    margin: .1rem;
+}

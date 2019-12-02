@@ -1,0 +1,97 @@
+@font-face{
+    font-family: 'SansBold';
+    src: url('Fonts/SansSerif/_sansserifbldflf-webfont.woff') format('woff');
+    src: url('Fonts/SansSerif/_sansserifbldflf-webfont.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'SansBook';
+    src: url('Fonts/SansSerif/_sansserifbookflf-webfont.woff') format('woff');
+    src: url('Fonts/SansSerif/_sansserifbookflf-webfont.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'SansDemiBold';
+    src: url('Fonts/SansSerif/_sansserifflf-demibold-webfont.woff') format('woff');
+    src: url('Fonts/SansSerif/_sansserifflf-demibold-webfont.woff2') format('woff2');
+}
+
+*{
+    font-size: 100%;
+}
+
+Div.Victoria img{
+    display: block;
+    Margin: 1rem auto 1rem;
+
+}
+
+Div.Nav {
+    border: grey;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    font-family: SansDemiBold;
+    font-size: 1.25rem;
+    margin: .8rem .25rem 0rem;
+    padding: .25rem 0rem .25rem 0rem;
+    text-align: center;
+}
+a.Nav1{
+    margin: 3.5rem;
+}
+a.Nav2{
+    margin:3.5rem;
+}
+a:link{
+    text-decoration: none;
+}
+a:active{
+    text-decoration-color: aqua;
+}
+
+
+div.Content{
+    margin: 0rem .8rem;
+}
+div.Content_Head h2{
+    color: #b378b4;
+    font-family: 'SansDemiBold', 'Times New Roman', Times, serif;
+    font-size: 2.15rem;
+    margin: 1.5rem 0rem .5rem;
+}
+
+div.Content_Body{
+    font-family: 'SansBook', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+}
+div.Content_List{
+    font-family: 'SansBook', 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    line-height: 1.75rem;
+}
+ul{
+    list-style-type: circle;
+    padding: 0rem 0rem 0rem 1.5rem;
+}
+li{
+    margin: .75rem 0rem
+}
+
+
+div.Footer{
+    margin: 0rem .8rem;
+}
+div.Footer_Head h3{
+    color: #b378b4;
+    font-family: 'SansDemiBold','Times New Roman', Times, serif;
+    font-size: 1.75rem;
+    margin: .25rem 0rem .5rem;
+}
+div.Footer_Body{
+    font-family: 'SansBook', 'Times New Roman', Times, serif;
+    line-height: 1.75rem;
+    padding: 0rem 1.5rem;
+}
+div.Footer_Body p{
+    font-size: 1.2rem;
+    margin: .5rem 0rem;
+}

@@ -1,0 +1,48 @@
+@font-face{
+    font-family: 'SansBold';
+    src: url('../Fonts/SansSerif/_sansserifbldflf-webfont.woff') format('woff');
+    src: url('../Fonts/SansSerif/_sansserifbldflf-webfont.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'SansBook';
+    src: url('../Fonts/SansSerif/_sansserifbookflf-webfont.woff') format('woff');
+    src: url('../Fonts/SansSerif/_sansserifbookflf-webfont.woff2') format('woff2');
+}
+@font-face{
+    font-family: 'SansDemiBold';
+    src: url('../Fonts/SansSerif/_sansserifflf-demibold-webfont.woff') format('woff');
+    src: url('../Fonts/SansSerif/_sansserifflf-demibold-webfont.woff2') format('woff2');
+}
+
+*{
+    font-size: 100%;
+}
+
+Div.Victoria img{
+    display: block;
+    Margin: 1rem auto 1rem;
+
+}
+
+Div.Nav {
+    border: grey;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    font-family: SansDemiBold;
+    font-size: 1.25rem;
+    margin: .8rem .25rem 0rem;
+    padding: .25rem 0rem .25rem 0rem;
+    text-align: center;
+}
+a.Nav1{
+    text-align: left;
+}
+a.Nav2{
+    margin: 4rem 3rem;
+}
+a.Nav3{
+    margin: 4rem 4.75rem 4rem 4rem;
+}
+a:link{
+    text-decoration: none;
+}
