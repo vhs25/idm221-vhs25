@@ -1,17 +1,17 @@
 @font-face{
     font-family: 'SansBold';
-    src: url('../../Fonts/SansSerif/_sansserifbldflf-webfont.woff') format('woff');
-    src: url('../../Fonts/SansSerif/_sansserifbldflf-webfont.woff2') format('woff2');
+    src: url('../../fonts/sansserif/_sansserifbldflf-webfont.woff') format('woff');
+    src: url('../../Fonts/sansserif/_sansserifbldflf-webfont.woff2') format('woff2');
 }
 @font-face{
     font-family: 'SansBook';
-    src: url('../../Fonts/SansSerif/_sansserifbookflf-webfont.woff') format('woff');
-    src: url('../../Fonts/SansSerif/_sansserifbookflf-webfont.woff2') format('woff2');
+    src: url('../../fonts/sansserif/_sansserifbookflf-webfont.woff') format('woff');
+    src: url('../../fonts/sansserif/_sansserifbookflf-webfont.woff2') format('woff2');
 }
 @font-face{
     font-family: 'SansDemiBold';
-    src: url('../../Fonts/SansSerif/_sansserifflf-demibold-webfont.woff') format('woff');
-    src: url('../../Fonts/SansSerif/_sansserifflf-demibold-webfont.woff2') format('woff2');
+    src: url('../../fonts/sansserif/_sansserifflf-demibold-webfont.woff') format('woff');
+    src: url('../../fonts/sansserif/_sansserifflf-demibold-webfont.woff2') format('woff2');
 }
 
 *{
@@ -30,7 +30,7 @@ header{
 }
 
 header.main{
-    font-size: 1.75rem;
+    font-size: 1.65rem;
     margin: 2rem .5rem 0rem;
 }
 

@@ -1,17 +1,17 @@
 @font-face{
     font-family: 'SansBold';
-    src: url('Fonts/SansSerif/_sansserifbldflf-webfont.woff') format('woff');
-    src: url('Fonts/SansSerif/_sansserifbldflf-webfont.woff2') format('woff2');
+    src: url('fonts/sansserif/_sansserifbldflf-webfont.woff') format('woff');
+    src: url('fonts/sansserif/_sansserifbldflf-webfont.woff2') format('woff2');
 }
 @font-face{
     font-family: 'SansBook';
-    src: url('Fonts/SansSerif/_sansserifbookflf-webfont.woff') format('woff');
-    src: url('Fonts/SansSerif/_sansserifbookflf-webfont.woff2') format('woff2');
+    src: url('fonts/sansserif/_sansserifbookflf-webfont.woff') format('woff');
+    src: url('fonts/sansserif/_sansserifbookflf-webfont.woff2') format('woff2');
 }
 @font-face{
     font-family: 'SansDemiBold';
-    src: url('Fonts/SansSerif/_sansserifflf-demibold-webfont.woff') format('woff');
-    src: url('Fonts/SansSerif/_sansserifflf-demibold-webfont.woff2') format('woff2');
+    src: url('fonts/sansserif/_sansserifflf-demibold-webfont.woff') format('woff');
+    src: url('fonts/sansserif/_sansserifflf-demibold-webfont.woff2') format('woff2');
 }
 
 *{
@@ -30,7 +30,7 @@ Div.Nav {
     border-width: 0px 0px 1px 0px;
     font-family: SansDemiBold;
     font-size: 1.25rem;
-    margin: .8rem .25rem 0rem;
+    margin: 1rem .25rem 0rem;
     padding: .25rem 0rem .25rem 0rem;
     text-align: center;
 }
@@ -55,13 +55,14 @@ div.Content_Head h2{
     color: #b378b4;
     font-family: 'SansDemiBold', 'Times New Roman', Times, serif;
     font-size: 2.15rem;
-    margin: 1.5rem 0rem .5rem;
+    margin: 2rem 0rem 0rem;
 }
 
 div.Content_Body{
     font-family: 'SansBook', 'Times New Roman', Times, serif;
     font-size: 1.2rem;
     line-height: 1.75rem;
+    margin: 0;
 }
 div.Content_List{
     font-family: 'SansBook', 'Times New Roman', Times, serif;
@@ -89,9 +90,16 @@ div.Footer_Head h3{
 div.Footer_Body{
     font-family: 'SansBook', 'Times New Roman', Times, serif;
     line-height: 1.75rem;
-    padding: 0rem 1.5rem;
+    padding: 0rem 1.5rem 0rem 1rem;
 }
 div.Footer_Body p{
     font-size: 1.2rem;
     margin: .5rem 0rem;
+}
+
+div.Footer_Head2{
+    color: #b378b4;
+    font-family: 'SansDemiBold','Times New Roman', Times, serif;
+    font-size: 1.4rem;
+    margin: .75rem 0rem 1.5rem;
 }
